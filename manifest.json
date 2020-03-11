@@ -1,0 +1,12 @@
+{
+  "name": "Keeping tabs on the hotties",
+  "version": "1.0",
+  "description": "A new hottie with every new tab!",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+  },
+  "manifest_version": 2
+}

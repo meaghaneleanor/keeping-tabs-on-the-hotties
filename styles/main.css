@@ -1,0 +1,88 @@
+body {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background: #FFFAFA;
+}
+
+.hottie-container {
+    width: 70%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.25;
+}
+
+.hottie-name {
+    display: block;
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+.hottie-profession {
+    margin-top: 0;
+    font-size: 15px;
+}
+
+.hottie-title {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 24px;
+    letter-spacing: .075rem;
+    text-decoration: underline;
+    margin-right: .125rem;
+}
+
+button {
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 28px;
+    border-radius: 5px;
+    color: white;
+    background-color: rebeccapurple;
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing: .1rem;
+}
+
+button:hover {
+    background-color: #402060;
+}
+
+img {
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+h1 {
+    font-family: 'Londrina Solid', cursive;
+    font-size: 100px;
+    color: rebeccapurple;
+    margin: 2.5rem 0;
+    align-self: center;
+    position: relative;
+}
+
+.heading-first {
+    z-index: 2;
+    position: relative;
+    text-shadow: -1px -1px #fdb1b9, -2px -2px #fdb1b9, -3px -3px #fdb1b9, -4px -4px #fdb1b9, -5px -5px #fdb1b9, -6px -6px #fdb1b9, -7px -7px #fdb1b9, -8px -8px #fdb1b9, -9px -9px #fdb1b9, -10px -10px #fdb1b9, -11px -11px #fdb1b9, -12px -12px #fdb1b9, -13px -13px #fdb1b9, -14px -14px #fdb1b9, -15px -15px #fdb1b9, -16px -16px #fdb1b9, -17px -17px #fdb1b9, -18px -18px #fdb1b9;
+}
+
+.hottie {
+    display: flex;
+}
+
+.hottie div {
+    width: 50%;
+}
+
+.heading-second {
+    display: block;
+    position: relative;
+    font-size: 60px;
+    margin-left: 20%;
+    text-shadow: -1px -1px #fdb1b9, -2px -2px #fdb1b9, -3px -3px #fdb1b9, -4px -4px #fdb1b9, -5px -5px #fdb1b9, -6px -6px #fdb1b9, -7px -7px #fdb1b9, -8px -8px #fdb1b9, -9px -9px #fdb1b9, -10px -10px #fdb1b9, -11px -11px #fdb1b9, -12px -12px #fdb1b9, -13px -13px #fdb1b9, -14px -14px #fdb1b9, -15px -15px #fdb1b9, -16px -16px #fdb1b9, -17px -17px #fdb1b9, -18px -18px #fdb1b9, -19px -19px #fdb1b9, -20px -20px #fdb1b9, -21px -21px #fdb1b9, -22px -22px #fdb1b9, -23px -23px #fdb1b9, -24px -24px #fdb1b9;
+    z-index: -1;
+}
